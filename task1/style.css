@@ -1,0 +1,52 @@
+p.dotted{
+    border-style: dotted solid dashed inset;
+    border-width: 6px 5px;
+    border-color: red;
+}
+p.dashed{
+    border-style: dashed;
+    border-color: blue;
+}p.solid{
+    border: 5px solid red;
+    border-left: 5px dashed blue;
+    border-radius: 6px;
+}
+p.double{
+    border-style: double;
+    border-width: medium;
+    border-color: green;
+}
+p.groove{
+    border-style: groove;
+}
+p.ridge{
+    /*border-style: ridge;*/
+    /*border-width: thick;*/
+    border-color: red green blue yellow;
+    
+}
+p.inset{
+    border-style: dotted inset solid;
+    border-width: 10px 5px 4px 2px;
+    border-bottom: 6px solid yellow;
+}
+p.outset{
+    border-style:outset;
+}
+p.none{
+    border-style: none;
+}
+p.hidden{
+    border-style: hidden;
+}
+p.mix{
+    border-style: groove dotted double;
+}
+p{
+border-right-style: dotted;
+border-left-style: double;
+border-top-style:dashed;
+border-bottom-style: groove;
+
+
+}
